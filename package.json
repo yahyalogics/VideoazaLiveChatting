@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start": "node index.js",
-    "dev": "nodemon index.js --ignore client",
+     "start": "node ./client/src/index",
+    "dev": "nodemon  ./client/src/index --ignore client",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
