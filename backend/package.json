@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+     "build-client": "npm run build --prefix client",
+     "build": "nodemon index.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"node index.js\" \"npm run client\""
   },
